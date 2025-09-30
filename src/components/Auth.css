@@ -1,0 +1,48 @@
+/* Full page background */
+.auth-page {
+  background: linear-gradient(135deg, #1e1e2f, #121212);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Auth box */
+.auth-box {
+  width: 100%;
+  text-align: center;
+}
+
+/* Input fields */
+.auth-box input {
+  outline: none;
+  transition: 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.auth-box input:focus {
+  border-color: #a855f7; /* purple-500 */
+  box-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+}
+
+/* Buttons */
+.auth-box button {
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+
+/* Google Button */
+.google-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 3%;
+}
+
+/* Switch link */
+.auth-box .link {
+  transition: 0.3s ease;
+}
+.auth-box .link:hover {
+  color: #c084fc; /* purple-400 */
+  text-decoration: underline;
+}
