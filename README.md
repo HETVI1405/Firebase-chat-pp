@@ -19,6 +19,5 @@
 - Firestore stores users and messages
 - Left sidebar: list of users (emails)
 - Center: chat with selected user (real-time)
-- Right: profile panel for the selected user and route `/profile/:uid` for editing your profile
 - Delete or edit messages
 - Last seen updates
